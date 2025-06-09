@@ -1,0 +1,13 @@
+body {
+    background-color: #f8f9fa;
+}
+h1 {
+    color: #343a40;
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+}
+.list-group-item {
+    margin-bottom: 10px;
+}
