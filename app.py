@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     if request.method == 'POST':
         product = request.form['product']
-        # Simulación de resultados (posteriormente usaremos APIs)
+        # Simulación de resultados (luego usaremos APIs reales)
         results = [
             {'store': 'Amazon', 'price': '$29.99', 'link': f'https://amazon.com/s?k={product}&tag=TU_TAG_AFILIADO'},
             {'store': 'eBay', 'price': '$25.00', 'link': f'https://ebay.com/s?k={product}&tag=TU_TAG_EBAY'}
